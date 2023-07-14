@@ -1,16 +1,16 @@
 #include <stdio.h>
-#include <time.h>
 #include <stdlib.h>
+#include <time.h>
 /**
  * main - assign a random number to a variable to be executable
- * return: 0 (Successful)
+ * return:0 (Successful)
  */
 int main(void);
 {
 	int n;
 
 	srand(time(0))
-	n = rand() - RAND_MAX/2;
+	n = rand() - RAND_MAX / 2;
 	if (n > 0)
 	{
 		printf("%d is positive\n", n);
