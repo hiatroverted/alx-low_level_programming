@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * print all single digit bumbers of base ten
+ * main - print all single digit bumbers of base ten
  * Return: 0
  */
 int main(void)
