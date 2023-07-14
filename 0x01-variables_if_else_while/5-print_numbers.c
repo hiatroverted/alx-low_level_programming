@@ -1,4 +1,4 @@
-#include <stdio>
+#include <stdio.h>
 /**
  * main - print all single digit numbers of base ten
  * Return: 0

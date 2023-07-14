@@ -1,4 +1,4 @@
-#include <stdio>
+#include <stdio.h>
 /**
  * main - print alphabet in lowercase
  * Return: 0
@@ -6,6 +6,7 @@
 int main(void)
 {
 	char c;
+
 	for (c = 'a'; c <= 'z'; ch++)
 	{
 		putchar(c);
