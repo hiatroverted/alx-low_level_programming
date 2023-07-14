@@ -3,9 +3,10 @@
 #include <time.h>
 /**
  * main - assign a random number to a variable to be executable
- * return:0 (Successful)
+ *
+ * Return: 0 (Successful)
  */
-int main(void);
+int main(void)
 {
 	int n;
 
