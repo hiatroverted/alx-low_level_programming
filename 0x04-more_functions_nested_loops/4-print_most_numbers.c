@@ -2,8 +2,7 @@
 #include <stdio.h>
 
 /**
- * * more_numbers - prints numbers from 0 to 9 excluding 2 and 4
- *
+ * more_numbers - prints numbers from 0 to 9 excluding 2 and 4
  */
 
 void more_numbers(void)
