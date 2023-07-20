@@ -1,21 +1,23 @@
 #include "main.h"
-#include <stdio.h>
 
 /**
- * more_numbers - prints numbers from 0 to 9 excluding 2 and 4
+ * more_numbers - print 10 times the numbers from 0 to 14
  */
 
 void more_numbers(void)
 {
-	int i;
+	int i, j;
 
-	for (i = 0; i <= 9; i++)
+	for (i = 0; i < 10; i++)
 	{
-		if (i != 2 && i != 4)
+		for (j = 0; j <= 14; j++)
 		{
-			_putchar(i + '0');
+			if (j >= 10)
+			{
+				_putchar((j / 10) + '0');
+			}
+			_putchar((j % 10) + '0');
 		}
+		_putchar ('\n');
 	}
-
-	_putchar ('\n');
 }
